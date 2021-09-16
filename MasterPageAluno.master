@@ -1,0 +1,50 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="MasterPageAluno.master.vb" Inherits="MasterPageAluno" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+
+<%@ Register Src="~/ctrRelatorio.ascx" TagPrefix="uc1" TagName="ctrRelatorio" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+
+    <section class="content-header">
+        <h1>
+            <i class="glyphicon  glyphicon-user"></i> Aluno
+            <small>Cadastro</small>
+        </h1>
+    </section>
+
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+
+		<section class="content" style="min-height: 0px !important; padding-bottom:0px !important;">
+		</section>
+            <section id="Cadastro" runat="server" class="content">
+                <!-- Small boxes (Stat box) -->
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div style="padding-top: 15px; float: left; padding-right: 10px">
+                            <asp:Label ID="lblAluno" runat="server" Text="" />
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div class='nav-tabs-custom'>                           
+                            <div class="tab-content">
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Listagem" runat="server" class="content">              
+
+            </section>
+        </ContentTemplate>
+    </asp:UpdatePanel>
+
+</asp:Content>
