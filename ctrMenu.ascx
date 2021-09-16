@@ -33,17 +33,17 @@
             <ul class="treeview-menu">
                  <li id="liSelecao" runat="server" visible="True">
                     <a href="frmSelecaoEscola.aspx">
-                        <i class="glyphicon glyphicon-book"></i>Selecionar Escola
+                        <i class="fa fa-book"></i>Selecionar Escola
                     </a>
                 </li>
                 <li id="liAluno" runat="server" visible="True">
                     <a href="frmAluno.aspx">
-                        <i class="glyphicon glyphicon-user"></i>Alunos
+                        <i class="fa fa-user"></i>Alunos
                     </a>
                 </li>
                 <li id="liAlunoEndereco" runat="server" visible="True">
                     <a href="frmAlunoEndereco.aspx">
-                        <i class="glyphicon glyphicon-user"></i>Endereço do Aluno
+                        <i class="fa fa-user"></i>Endereço do Aluno
                     </a>
                 </li>
                 <li id="liTurma" runat="server" visible="True">
