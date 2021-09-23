@@ -50,7 +50,7 @@
                             <a href="http://www.google.com.br" class="btn btn-default btn-flat">Alterar Senha</a>
                         </div>
                         <div class="pull-right">
-                            <%--<asp:LinkButton ID="lnkSair" runat="server" Text="Sair"></asp:LinkButton>--%>
+                            <asp:LinkButton ID="lnkSair" runat="server" Text="Sair"></asp:LinkButton>
                             <a href="frmSair.aspx" class="btn btn-default btn-flat">Sair</a>
                         </div>
                     </li>
