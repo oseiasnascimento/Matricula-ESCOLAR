@@ -12,8 +12,7 @@ Partial Class NewExtranet_ctrTopo
 
     Protected Sub Sair()
         Session.Abandon()
-        Response.Redirect("http://www.google.com.br")
+        Response.Redirect("Default.aspx")
     End Sub
-
 
 End Class

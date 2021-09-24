@@ -12,6 +12,6 @@ Partial Class NewExtranet_ctrMenu
     End Sub
 
     Protected Sub lnkSair_Click(sender As Object, e As EventArgs) Handles lnkSair.Click
-        Response.Redirect("http://www.google.com.br")
+        Response.Redirect("Default.aspx")
     End Sub
 End Class

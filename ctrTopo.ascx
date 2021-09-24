@@ -47,11 +47,10 @@
                     <!-- Menu Footer-->
                     <li class="user-footer">
                         <div class="pull-left">
-                            <a href="http://www.google.com.br" class="btn btn-default btn-flat">Alterar Senha</a>
+                            <a href="Default.aspx" class="btn btn-default btn-flat">Alterar Senha</a>
                         </div>
                         <div class="pull-right">
-                            <asp:LinkButton ID="lnkSair" runat="server" Text="Sair"></asp:LinkButton>
-                            <a href="frmSair.aspx" class="btn btn-default btn-flat">Sair</a>
+                            <a href="Default.aspx" class="btn btn-default btn-flat">Sair</a>
                         </div>
                     </li>
                 </ul>

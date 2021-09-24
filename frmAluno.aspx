@@ -92,7 +92,7 @@
                                     </div>
                                     <%--Butão para fazer push no GitHub--%>
                                     <div class="btn-group">
-                                        <asp:LinkButton ID="btnNovo" runat="server" class="btn btn-info"><i class="fa fa-plus"></i> Novo</asp:LinkButton>
+                                        <asp:LinkButton ID="btnNovo1" runat="server" class="btn btn-info"><i class="fa fa-plus"></i> Novo</asp:LinkButton>
                                     </div>
                                     <div class="btn-group">
                                         <asp:LinkButton ID="btnDocumento" runat="server" class="btn btn-info"><i class="fa fa-plus"></i> Documento</asp:LinkButton>
