@@ -2,9 +2,10 @@
 
 <a href="#" class="logo">
     <!-- Add the class icon to your logo image or logo icon to add the margining -->
+    <span class="logo-mini"><b>MAT</b></span>
     <asp:Label ID="lblSistema" runat="server" Text="MATRICULA" />
 </a>
-<!-- Header Navbar: style can be found in header.less -->
+<!-- Header Navbar: style can be found in header.less oseias -->
 <nav class="navbar navbar-static-top" role="navigation">
     <!-- Sidebar toggle button-->
     <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
@@ -12,7 +13,6 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-
     </a>
     <div class="navbar-right">
         <ul class="nav navbar-nav">
