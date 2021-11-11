@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <ul class="sidebar-menu" style="position: absolute;">
+    <ul class="sidebar-menu">
         <li class="active">
             <li id="liPaginaInicial" runat="server" visible="True"><a href="Default.aspx"><i class="glyphicon glyphicon-home"></i>Página Inicial</a></li>
         </li>
