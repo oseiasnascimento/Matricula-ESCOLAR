@@ -5,7 +5,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-
+    <!-- Panel referente ao cadastro de dados do aluno -->
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
         <ContentTemplate>
             <section id="cadastro" runat="server">
